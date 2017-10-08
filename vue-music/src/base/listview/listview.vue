@@ -86,7 +86,6 @@
       },
       scroll(pos){
         this.scrollY = pos.y
-        console.log(this.scrollY);
       },
       _scrollTo(index){
         if(!index && index !== 0){
@@ -135,7 +134,6 @@
           if( -newY>=height1 && -newY<height2){
             this.currentIndex = i;
             this.diff = height2+newY
-            console.log(this.currentIndex);
             return;
           }
         }
